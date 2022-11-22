@@ -40,7 +40,7 @@ function calculatesFarePrice(start,destination){
     if(start>destination){
         let distance=(start-destination)*feet;
         if(distance<=2000){
-            return((distance-400)*2e-2)
+            return((distance-400)*0.02)
         }
     }
     if(destination>start){
